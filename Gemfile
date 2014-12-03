@@ -55,15 +55,13 @@ gem 'state_machine', '~> 1.2.0'
 #gem 'sunspot_rails', '~> 2.0.0'
 gem 'will_paginate', '~> 3.0.4'
 gem 'zurb-foundation', '~> 4.3.2'
+  gem 'pg'
 
 group :production do
-  gem 'mysql2', '~> 0.3.16'
-  gem 'pg'
   gem 'rails_12factor'
 end
 
 group :development do
-  gem 'sqlite3'
   gem 'railroady'
   #gem 'awesome_print'
   #gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
