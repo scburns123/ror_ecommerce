@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){$countries_select=e("#countries_select"),$countries_select.on("change",function(t){var c=e(t.target).val(),n=e("#activate-link");c&&(url=n.attr("href","/admin/config/countries/"+c+"/activate").click())})});
